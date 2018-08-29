@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Eliza Hampton</title>
+</head>
+<body>
+    <div class="container-fluid noSpaces">
+        <div class="row noSpaces">
+            <div class="col-lg-6 noSpaces">
+                <div class="imgs">
+                    <!-- <img src="images/Eliza-bg.jpg" alt="Eliza Hampton" class="img1"> -->
+                    <img src="images/Eliza-logo.png" alt="Eliza" class="img2">
+                    <img src="images/tagline.svg" alt="tagline" class="img3">
+                </div>
+            </div>
+            <div class="col-lg-6 noSpaces formBg">
+                <div class="header">
+                    <p>&mdash; UNIQUELY HAMPTON &mdash;</p>
+                    <p class="font--normal header--padding">NEW 1, 2 ,3 & 4 BEDROOM<br>BAYSIDE RESIDENCES FROM 61m<sup>2</sup> &mdash; 245m<sup>2</sup><br>427 HAMPTON STREET, HAMPTON</p>
+                    <hr/>
+                </div>
+                <div class="interestForm">
+                    <div class="form__header">
+                        <p class="font--normal">REGISTER YOUR INTEREST</p>
+                        <p>PRE-LAUNCH EVENT - SEPTEMBER 2018<br>GENERAL LAUNCH - OCTOBER 2018</p>
+                    </div>
+                    <form name="Contact" action="POST" netlify>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="FIRST NAME&#x2a;" name="First Name" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="LAST NAME" name="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="EMAIL&#x2a;" name="Email" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="PHONE" name="Phone">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col custom-dropdown">
+                                <select class="form-control" name="I am an" required>
+                                    <option selected value="">I AM AN&#x2a;</option>
+                                    <option value="OWNER OCCUPIER">OWNER OCCUPIER</option>
+                                    <option value="INVESTOR">INVESTOR</option>
+                                </select>
+                            </div>
+                            <div class="col custom-dropdown">
+                                <select class="form-control" name="Interested in">
+                                    <option selected>INTERESTED IN</option>
+                                    <option value="1 BEDROOM APARTMENT">1 BEDROOM APARTMENT</option>
+                                    <option value="2 BEDROOM APARTMENT">2 BEDROOM APARTMENT</option>
+                                    <option value="3 BEDROOM APARTMENT">3 BEDROOM APARTMENT</option>
+                                    <option value="4 BEDROOM APARTMENT">4 BEDROOM APARTMENT</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn custom-button-style">submit</button>
+                    </form>
+                </div>
+                <hr/>
+                <div class="footer">
+                    <div>
+                        <p class="contact__info">FOR MORE INFORMATION PLEASE CONTACT</p>
+                    </div>
+                    <div class="row noSpaces">
+                        <div class="col-lg-6 noSpaces">
+                            <p class="contact">
+                            <span class="font--normal">NIHAL</span><br>
+                            <a href="tel:0422 611 718">
+                            0422 611 718</a><br>
+                            <a href="mailto:nihal@steller.com.au">
+                            NIHAL@STELLER.COM.AU</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 noSpaces">
+                            <p class="contact">
+                            <span class="font--normal">TANYA</span><br>
+                            <a href="tel:0431 306 657">0431 306 657</a><br>
+                            <a href="mailto:tanya@steller.com.au">TANYA@STELLER.COM.AU</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <p class="footer__info">PROUDLY BROUGHT TO LIFE BY <a href="https://www.steller.com.au/" target="_blank" rel="noopener noreferrer"><img src="images/Steller-logo.svg" alt="STELLER" class="stellerLogo"></a></p>
+            </div>
+            <iframe src="https://snazzymaps.com/embed/92677" width="100%" height="600px" style="border:none;"></iframe>
+        </footer>
+    </div>
+</body>
+</html>
